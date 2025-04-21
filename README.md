@@ -1,5 +1,7 @@
 # sheetable
 
+[![Pub Version](https://img.shields.io/pub/v/sheetable.svg)](https://pub.dev/packages/sheetable)
+
 A customizable and scrollable bottom sheet widget for Flutter.
 
 ## ✨ Features

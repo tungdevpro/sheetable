@@ -1,5 +1,5 @@
 name: sheetable
-description: "A new Flutter package project."
+description: "A flexible and interactive bottom sheet with scroll and drag capabilities, mimicking the modern UX pattern found in apps like Airbnb."
 version: 0.0.1
 homepage:
 

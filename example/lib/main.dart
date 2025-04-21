@@ -17,13 +17,14 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.green,
         appBar: AppBar(title: Text('data')),
         bottomSheet: SheetableWidget(
-          expandToFullHeight: false,
           contentBuilder: (scrollController) {
-            return ListView(
+            return ListView.builder(
               controller: scrollController,
-              children: List.generate(10, (index) => ListTile(title: Text('Item $index'), subtitle: Text('data'))),
+              itemCount: 20,
+              itemBuilder: (context, index) => ListTile(title: Text('Item $index')),
             );
           },
+          onSheetHidden: () => print('Sheet hidden'),
         ),
       ),
     );

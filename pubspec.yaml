@@ -1,5 +1,5 @@
 name: sheetable
-description: "A flexible and interactive bottom sheet with scroll and drag capabilities, mimicking the modern UX pattern found in apps like Airbnb."
+description: "A customizable and scrollable bottom sheet widget for Flutter."
 version: 0.0.1
 homepage:
 
